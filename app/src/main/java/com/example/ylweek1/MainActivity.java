@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
             }
         });
+
+        // Jump to next activity
         clicky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

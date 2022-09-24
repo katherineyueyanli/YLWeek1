@@ -15,6 +15,7 @@ public class ClickyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clicky);
+        // initialize buttons and textview
         result=findViewById(R.id.result);
         bttA=findViewById(R.id.bttA);
         bttB=findViewById(R.id.bttB);
@@ -22,6 +23,8 @@ public class ClickyActivity extends AppCompatActivity {
         bttD=findViewById(R.id.bttD);
         bttE=findViewById(R.id.bttE);
         bttF=findViewById(R.id.bttF);
+
+        // set on click function on buttons
         bttA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
