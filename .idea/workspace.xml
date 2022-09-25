@@ -37,8 +37,8 @@
     </projectState>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/YLWeek1" />
-    <option name="KEY_ALIAS" value="week1Key" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/YLWEEK2/Week2" />
+    <option name="KEY_ALIAS" value="YLWeek2" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
