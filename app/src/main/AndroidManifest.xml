@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_yl_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YLWeek1">
-        <activity android:name=".ClickyActivity"></activity>
-        <activity android:name=".MainActivity"
-            android:exported="true" >
+        <activity android:name=".AboutMeActivity"></activity>
+        <activity android:name=".ClickyActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

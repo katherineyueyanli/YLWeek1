@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(getApplicationContext(), "Yueyan Li \n li.yueyan2@northeastern.edu", Toast.LENGTH_SHORT);
-                toast.show();
+                Intent intent = new Intent(MainActivity.this,AboutMeActivity.class);
+                startActivity(intent);
             }
         });
 

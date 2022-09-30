@@ -59,9 +59,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1664001971137" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1664515396534" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.2131414402">
+      <recent name="com.example.ylweek1" />
+    </key>
     <key name="android.template.262458489">
       <recent name="com.example.ylweek1" />
     </key>
