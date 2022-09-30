@@ -36,6 +36,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/YLWEEK2/Week2" />
     <option name="KEY_ALIAS" value="YLWeek2" />
@@ -58,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="memory.settings.postsync.last.time.stamp" value="1664515396534" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +75,9 @@
     </key>
     <key name="android.template.262458489">
       <recent name="com.example.ylweek1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,5 +176,45 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1663395121467" />
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1664519465315">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1664519465315" />
+    <state x="100" y="125" width="1240" height="612" key="AVDManager" timestamp="1664523821475">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state x="100" y="125" width="1240" height="612" key="AVDManager/0.25.1440.812@0.25.1440.812" timestamp="1664523821475" />
+    <state x="308" y="209" key="AndroidCreateResourceFileDialog" timestamp="1664519264648">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="209" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1664519264648" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1664522240827">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1664522240827" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1664521884182" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1664518380244" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1664522064673" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1664522240827">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1664522240827" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1664521884180" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1664518380244" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1664522064672" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1664522240826">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1664522240826" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1664521884173" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1664518380244" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1664522064671" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1664522240827">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1664522240827" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1664521884181" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1664518380244" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1664522064672" />
   </component>
 </project>

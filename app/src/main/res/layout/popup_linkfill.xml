@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="380dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#97FFFFFF">
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Link Name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:hint="E.g. Youtube"
+        app:layout_constraintEnd_toEndOf="@+id/textview3"
+        app:layout_constraintStart_toStartOf="@+id/textview3"
+        app:layout_constraintTop_toBottomOf="@id/textview3" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Link URL"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/inputName"
+        app:layout_constraintStart_toStartOf="@+id/inputName"
+        app:layout_constraintTop_toBottomOf="@+id/inputName" />
+
+    <EditText
+        android:id="@+id/inputlink"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:hint="E.g. www.youtube.com"
+        app:layout_constraintEnd_toEndOf="@+id/textview4"
+        app:layout_constraintStart_toStartOf="@+id/textview4"
+        app:layout_constraintTop_toBottomOf="@+id/textview4" />
+
+    <Button
+        android:id="@+id/bttAddLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Add"
+        app:layout_constraintStart_toStartOf="@+id/inputlink"
+        app:layout_constraintTop_toBottomOf="@+id/inputlink" />
+
+    <Button
+        android:id="@+id/bttClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="close"
+        app:layout_constraintBottom_toBottomOf="@+id/bttAddLink"
+        app:layout_constraintStart_toEndOf="@+id/bttAddLink"
+        app:layout_constraintTop_toTopOf="@+id/bttAddLink" />
+</androidx.constraintlayout.widget.ConstraintLayout>
