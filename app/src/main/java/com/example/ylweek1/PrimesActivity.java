@@ -20,8 +20,6 @@ public class PrimesActivity extends AppCompatActivity {
     Button find, terminate;
     TextView result, check;
     private Handler textHandler = new Handler();
-    int max = 500;
-    int j = 3;
     boolean sign;
 
     @Override
@@ -47,10 +45,6 @@ public class PrimesActivity extends AppCompatActivity {
                 t1.interrupt();
             }
         });
-
-        // detect back activtiy
-        //onBackPressed();
-
 
     }
     @Override
@@ -134,15 +128,14 @@ public class PrimesActivity extends AppCompatActivity {
                     });
 
                 }
-                boolean wasInterrupted;
+
 
                 Log.d(TAG, "Running on a different thread using Runnable Interface: " + i);
                 try {
                     Thread.sleep(1000); //Makes the thread sleep or be inactive for 10 seconds
-                    //wasInterrupted = false;
+
                 } catch (InterruptedException e) {
-                    //wasInterrupted=true;
-                    //e.printStackTrace();
+
                     return;
                 }
 
