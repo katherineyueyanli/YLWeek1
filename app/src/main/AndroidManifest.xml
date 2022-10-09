@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_yl_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YLWeek1">
-        <activity android:name=".LinkActivity"></activity>
+        <activity android:name=".PrimesActivity"></activity>
+        <activity android:name=".LinkActivity" />
         <activity android:name=".AboutMeActivity" />
         <activity android:name=".ClickyActivity" />
         <activity

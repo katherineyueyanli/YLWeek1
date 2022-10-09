@@ -10,22 +10,22 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:text="Hello World!"
         app:layout_constraintBottom_toTopOf="@+id/bttAbt"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bttAbt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
         android:text="About Me"
         app:layout_constraintBottom_toTopOf="@+id/bttclicky"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/bttclicky"
@@ -46,5 +46,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/bttclicky"
         app:layout_constraintStart_toStartOf="@+id/bttclicky" />
+
+    <Button
+        android:id="@+id/bttPrime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Find Primes"
+        app:layout_constraintEnd_toEndOf="@+id/bttLink"
+        app:layout_constraintStart_toStartOf="@+id/bttLink"
+        app:layout_constraintTop_toBottomOf="@+id/bttLink" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
