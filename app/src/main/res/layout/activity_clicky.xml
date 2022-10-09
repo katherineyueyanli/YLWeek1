@@ -14,6 +14,7 @@
         android:layout_marginLeft="50dp"
         android:text="B"
         app:layout_constraintBottom_toBottomOf="@+id/bttA"
+        app:layout_constraintEnd_toStartOf="@+id/bttC"
         app:layout_constraintStart_toEndOf="@+id/bttA"
         app:layout_constraintTop_toTopOf="@+id/bttA" />
 
@@ -21,10 +22,9 @@
         android:id="@+id/bttA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="200dp"
         android:text="A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bttB"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,6 +36,7 @@
         android:layout_marginLeft="50dp"
         android:text="C"
         app:layout_constraintBottom_toBottomOf="@+id/bttB"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bttB"
         app:layout_constraintTop_toTopOf="@+id/bttB" />
 
@@ -53,13 +54,11 @@
         android:id="@+id/bttE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
         android:text="E"
         app:layout_constraintBottom_toBottomOf="@+id/bttD"
-        app:layout_constraintEnd_toEndOf="@+id/bttC"
+        app:layout_constraintEnd_toEndOf="@+id/bttB"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/bttD"
+        app:layout_constraintStart_toStartOf="@+id/bttB"
         app:layout_constraintTop_toTopOf="@+id/bttD" />
 
     <Button
@@ -70,6 +69,7 @@
         android:layout_marginLeft="50dp"
         android:text="F"
         app:layout_constraintBottom_toBottomOf="@+id/bttE"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bttE"
         app:layout_constraintTop_toTopOf="@+id/bttE" />
 
