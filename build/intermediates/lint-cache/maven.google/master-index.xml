@@ -103,6 +103,7 @@
   <androidx.textclassifier/>
   <androidx.tracing/>
   <androidx.transition/>
+  <androidx.tv/>
   <androidx.tvprovider/>
   <androidx.ui/>
   <androidx.vectordrawable/>
@@ -213,6 +214,7 @@
   <com.google.firebase.appdistribution/>
   <com.google.firebase.crashlytics/>
   <com.google.firebase.firebase-perf/>
+  <com.google.firebase.testlab/>
   <com.google.gms/>
   <com.google.gms.google-services/>
   <com.google.jacquard/>

@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button about,clicky,link,prime;
+    private Button about,clicky,link,prime,location;
 
 
     @Override
@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         clicky=findViewById(R.id.bttclicky);
         link = findViewById(R.id.bttLink);
         prime =  findViewById(R.id.bttPrime);
+        location=findViewById(R.id.bttLocation);
+
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,PrimesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,LocationActivity.class);
                 startActivity(intent);
             }
         });

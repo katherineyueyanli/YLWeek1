@@ -21,9 +21,11 @@
         android:id="@+id/bttAbt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
         android:text="About Me"
         app:layout_constraintBottom_toTopOf="@+id/bttclicky"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bttLocation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -34,8 +36,9 @@
         android:layout_marginBottom="30dp"
         android:text="Clicky"
         app:layout_constraintBottom_toTopOf="@+id/bttLink"
-        app:layout_constraintEnd_toEndOf="@+id/bttAbt"
-        app:layout_constraintStart_toStartOf="@+id/bttAbt" />
+        app:layout_constraintEnd_toEndOf="@+id/bttLocation"
+        app:layout_constraintStart_toStartOf="@+id/bttAbt"
+        app:layout_constraintTop_toBottomOf="@+id/bttAbt" />
 
     <Button
         android:id="@+id/bttLink"
@@ -45,7 +48,8 @@
         android:text="Link Collector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/bttclicky"
-        app:layout_constraintStart_toStartOf="@+id/bttclicky" />
+        app:layout_constraintStart_toStartOf="@+id/bttclicky"
+        app:layout_constraintTop_toBottomOf="@+id/bttclicky" />
 
     <Button
         android:id="@+id/bttPrime"
@@ -56,5 +60,17 @@
         app:layout_constraintEnd_toEndOf="@+id/bttLink"
         app:layout_constraintStart_toStartOf="@+id/bttLink"
         app:layout_constraintTop_toBottomOf="@+id/bttLink" />
+
+    <Button
+        android:id="@+id/bttLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Location"
+        app:layout_constraintBottom_toBottomOf="@+id/bttAbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bttAbt"
+        app:layout_constraintTop_toTopOf="@+id/bttAbt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
